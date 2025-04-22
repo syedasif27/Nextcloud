@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
+  <diagram name="Page-1" id="Qz0JGkKwHEabn38sA44r">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Monitoring" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="135" width="256" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Redis" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="284" y="135" width="222" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Database Cluster" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="527" y="135" width="750" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Web Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="586" y="8" width="144" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Database Server 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="562" y="160" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Database Server 2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="805" y="160" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Database Server 3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1049" y="160" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Redis Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="319" y="160" width="152" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Monitoring Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="43" y="160" width="186" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Connects to" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Connects to" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="902" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Connects to" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1145" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Uses" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="396" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Monitored by" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.66;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="136" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
